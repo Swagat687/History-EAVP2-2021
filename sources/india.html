@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Indian History</title>
+	<link rel="stylesheet" type="text/css" href="../assets/india.css">
+</head>
+<body style="background-image: url(../material/india-bg.jpg); background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;">
+
+	<h1>Welcome to Indian History!</h1>
+	<h2>Now, as we know Indian history is a huge topic by itself</h2>
+	<h3>Kindly choose a sub-topic to learn about a particular subject:</h3>
+
+   <div class="buttons">
+	<button class="maurya" onclick="window.location.href= 'india/mauryan-empire.html' ">Mauryan Empire</button>
+	<button class="gupta" onclick="window.location.href= 'india/gupta-empire.html' ">Gupta Empire</button>
+	<button class="back" onclick="window.location.href='../index.html' ">RETURN TO HOME SCREEN</button>
+   </div>
+
+   <div class="clock">
+          <p id="time">
+               <script type="text/javascript">
+                    function showTime(){
+                    document.getElementById("time").innerHTML = Date();
+               }
+                    showTime();
+                    setInterval(showTime, 1000)
+               </script>
+          </p>
+        </div>
+
+</body>
+</html>
