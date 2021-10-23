@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+.back{
+    position: absolute;
+    top: 6%;
+    left: 92%;
+    transform: translate(-50%,-50%);
+    color: green;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.back:hover{
+    color: black;
+    background-color: lightpink;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: steelblue;
+}
+
+p{
+    font-size: 18px;
+}
+
+.starting{
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    color: darkred;
+}
+
+.p1{
+    text-align: right;
+    position: absolute;
+    top: 49%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    color: palegreen;
+}
+
+body{
+    background-image: url(bg2.jpg);
+}
+
+.img1{
+    position: absolute;
+    top: 49%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 50%;
+}
+
+.golden-age{
+    text-align: center;
+    position: absolute;
+    top: 92%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    color: lightyellow;
+}
+
+.p2{
+    text-align: left;
+    position: absolute;
+    top: 109%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+    color: palegreen;
+}
+
+.img2{
+    position: absolute;
+    top: 109%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.p4{
+    position: absolute;
+    font-size: 1px;
+    top: 220%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+.facts{
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: cadetblue;
+}
+
+.p3{
+    text-align: right;
+    position: absolute;
+    top: 165%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    color: lightyellow;
+    width: 700px;
+    height: 100px;
+}
+
+.video{
+    position: absolute;
+    top: 175%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+h3{
+    position: absolute;
+    top: 205%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+
+.creator{
+    position: absolute;
+    top: 09%;
+    left: 09%;
+    transform: translate(-50%,-50%);
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: palegreen;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.creator:hover{
+    color: black;
+    background-color: palegreen;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
